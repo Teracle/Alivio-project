@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Lato&family=Manrope:wght@500;700;800&family=Merriweather:wght@300&family=Poppins&display=swap');
+
+body{
+    font-family:'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    color:#424242;
+    /* min-width: 1600px; */
+    overflow-x: hidden;
+}
+
+
+
+.none{
+    display: none !important;
+}
+
+.visually-hidden{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width:0px;
+    height: 0px;
+    display: block;
+    margin-left: -1000px;
+    background: transparent;
+    font-size: 0;
+}
+
+.container{
+    width:1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width:1399px){
+    .container{
+        width:100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+}
+
+ .container-wide{
+     width:1536px;
+ }
+
+@media (max-width:1000px) {
+    body{
+        font-size: 18px;
+    }
+
+    .btn, a.btn{
+        padding-left: 30px;
+        padding-right: 30px;
+        min-height: 41px;
+    }
+
+    .btn-big, a.btn-big{
+        min-height: 55px;
+    }
+}
+
+@media (max-width:1535px) {
+    .container-wide{
+        width:100%;
+    }
+}
+
+.no-scroll{
+    overflow: hidden;
+}
